@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script
+        type="text/javascript">var inputmask_78a6a5ef = { "data-inputmask-clearincomplete": true, "data-inputmask-clearmaskonlostfocus": "false", "mask": "+\\9\\9\\899-999-99-99" };</script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="main-box">
+                <div class="head-box">
+                    <img src="./logo art deco study-01.svg" alt="logo" />
+                    <div class="box-title">
+                        <h2>ART DECO STUDY</h2>
+                        <p>Arxitektura va Dizayn maktabi</p>
+                    </div>
+                </div>
+                <div class="middle-box">
+                    <h3>3 oylik "AutoCard" kursida</h3>
+                    <ul class="middle-ul">
+                        <li>
+                            _"AutoCard"dasturi asosiy tushunchalari va asosiy <br />
+                            funksiyalari
+                        </li>
+                        <li>_Turar-joy binosini loyihalashtirish</li>
+                        <li>_Arxitektura va qurilish standartlari</li>
+                        <li>_Bino ergonimikasi</li>
+                        <li>_Shaxsiy portfolio</li>
+                    </ul>
+                </div>
+                <div class="end-box">
+                    <div class="card-box">
+                        <h3>Biz bilan kasb  o'rganing!</h3>
+
+                        <p>
+                            AutoCard kursi haqida batasfil ma'lumotga ega bo'lish uchun
+                            ro'yxatdan o'ting
+                        </p>
+                        <form>
+                            <input id="name" type="text" placeholder="Ismingiz-Familyangiz" />
+                            <!-- <input id="phone" placeholder="Telefon-raqamingiz"> -->
+                            <input name="name"  type="text" id="w0"  placeholder="+998__ ___ __ __"/> 
+                            <button name="phone" class="check"><i class="fa-solid fa-check"></i></button>
+                        </form>
+                        <div class="special" style="display: flex;align-items: center;justify-content: center;">
+                            <button id="send">
+                                <button class="send">
+                                    <p class="send-title">Jo'natish</p>
+                                </button>
+                            </button>
+                            <span></span>
+                        </div>
+                        <p class="error_sent" style="color: crimson; visibility: hidden"></p>
+                    </div>
+                </div>
+                <p class="footer-p">Toshkent</p>
+            </div>
+        </div>
+    </header>
+    <script src="./js/jquery.js.Без названия"
+    type="text/javascript"></script>
+    <script src="./js//jquery.validate.min.js.Без названия"
+    type="text/javascript"></script>
+    <script src="./js/jquery.inputmask.bundle.js.Без названия"
+    type="text/javascript"></script>
+    <script type="text/javascript">jQuery(function ($) {
+        jQuery.extend(jQuery.validator.messages, {
+            required: "Это поле обязательно к заполнению.",
+        });
+        $(document).ready(function () {
+            $("#linkForm").validate();
+        });
+        jQuery("#w0").inputmask(inputmask_78a6a5ef);});</script>
+</body>
+    <script src="./js/main.js"></script>
+</html>
